@@ -1,4 +1,27 @@
+import { useState } from 'react'
 import { projects } from '../data/projects'
+
+function ProjectImage({ image, title }) {
+  const [failed, setFailed] = useState(false)
+
+  if (!image || failed) {
+    return (
+      <div className="flex aspect-video items-center justify-center rounded-md bg-bg text-xs text-ink-soft">
+        Sin captura
+      </div>
+    )
+  }
+
+  return (
+    <img
+      src={image}
+      alt={`Captura del proyecto ${title}`}
+      loading="lazy"
+      className="aspect-video w-full rounded-md object-cover"
+      onError={() => setFailed(true)}
+    />
+  )
+}
 
 export default function Projects() {
   return (
@@ -10,7 +33,8 @@ export default function Projects() {
             key={project.title}
             className="rounded-lg border border-white/10 bg-bg-soft p-5 transition-colors hover:border-accent/40"
           >
-            <h3 className="font-display font-bold text-ink">{project.title}</h3>
+            <ProjectImage image={project.image} title={project.title} />
+            <h3 className="mt-4 font-display font-bold text-ink">{project.title}</h3>
             <p className="mt-2 text-sm text-ink-soft">{project.description}</p>
             <div className="mt-3 flex flex-wrap gap-2">
               {project.stack.map((tech) => (
