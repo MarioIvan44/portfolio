@@ -6,7 +6,7 @@ export const projects = [
     stack: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS'],
     repo: 'https://github.com/Ayala-Carlos/Elaris-De-Elite.git',
     demo: '',
-    image: '/images/projects/elaris-de-elite.png',
+    image: '/images/projects/elaris-de-elite.jpg',
   },
   {
     title: 'Jupaca Proyecta',
@@ -14,7 +14,7 @@ export const projects = [
       'Proyecto colaborativo en el que participé, incluido como parte de mi portafolio personal. Plataforma para centralizar la gestión de talento humano, nóminas, contratos, horas extras, cuentas por cobrar y facturas proforma; el repositorio pertenece al equipo.',
     stack: ['React', 'Node.js', 'MongoDB', 'React Native'],
     repo: "",
-    image: '/images/projects/jupaca-proyecta.png',
+    image: '/images/projects/jupaca-proyecta.jpg',
   },
   {
     title: 'Gastos Mensuales',
@@ -22,7 +22,7 @@ export const projects = [
     stack: ['C#', 'WinForms'],
     repo: "",
     demo: '',
-    image: '/images/projects/gastos-mensuales.png',
+    image: '/images/projects/gastos-mensuales.jpg',
   },
   {
     title: 'PackLens 📦',
@@ -41,6 +41,6 @@ export const projects = [
     ],
     repo: '',
     demo: '',
-    image: '/images/projects/packlens.png',
+    image: '/images/projects/packlens.jpg',
   },
 ]

@@ -4,3 +4,4 @@ dist
 .DS_Store
 *.log
 README.md
+_originals_backup
