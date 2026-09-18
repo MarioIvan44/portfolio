@@ -43,4 +43,38 @@ export const projects = [
     demo: '',
     image: '/images/projects/packlens.jpg',
   },
+  {
+    title: 'ApiTrackline',
+    description:
+      'API REST para "Trackline", sistema de rastreo de paquetes. Maneja autenticación con JWT, seguridad, validación de datos, acceso a base de datos Oracle, envío de correos y almacenamiento de imágenes en la nube.',
+    stack: [
+      'Java',
+      'Spring Boot',
+      'Spring Security',
+      'JPA',
+      'Oracle',
+      'JWT',
+      'Cloudinary',
+      'Maven',
+    ],
+    repo: 'https://github.com/MarioIvan44/ApiTrackline.git',
+    demo: '',
+    image: '/images/projects/apitrackline.jpg',
+  },
+  {
+    title: 'TracklineAppRoutes',
+    description:
+      'Aplicación Android para conductores de "Trackline", que consume la API ApiTrackline. Permite visualizar rutas y ubicación en tiempo real sobre Google Maps, con una interfaz construida en Jetpack Compose.',
+    stack: [
+      'Kotlin',
+      'Android',
+      'Jetpack Compose',
+      'Retrofit',
+      'Google Maps SDK',
+      'Google Play Services (Location)',
+    ],
+    repo: 'https://github.com/MarioIvan44/TracklineAppRoutes.git',
+    demo: '',
+    image: '/images/projects/tracklineapproutes.jpg',
+  },
 ]
