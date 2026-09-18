@@ -7,7 +7,8 @@ export default function Hero() {
       </h1>
       <p className="mt-4 max-w-xl text-lg text-ink-soft">
         Estudiante de Bachillerato Técnico en Desarrollo de Software. Construyo
-        aplicaciones web full-stack con React, C# y bases de datos relacionales.
+        aplicaciones full-stack con React, Node.js y Java/Spring Boot, además
+        de apps móviles nativas en Kotlin para Android.
       </p>
       <div className="mt-8 flex gap-4">
         <a

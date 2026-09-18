@@ -25,7 +25,7 @@ export const projects = [
     image: '/images/projects/gastos-mensuales.jpg',
   },
   {
-    title: 'PackLens 📦',
+    title: 'PackLens',
     description:
       'Sistema de rastreo de paquetes en tiempo real, multi-tenant, pensado para negocios de logística y envíos. Los clientes siguen su pedido en un mapa en vivo mientras los conductores reportan su ubicación. Monorepo con backend REST, app Android para clientes (sin login, por código de tracking o deep link) y app Android para conductores (con Foreground Service que transmite GPS cada 5 segundos). Proyecto privado, todos los derechos reservados.',
     stack: [
@@ -44,7 +44,7 @@ export const projects = [
     image: '/images/projects/packlens.jpg',
   },
   {
-    title: 'ApiTrackline',
+    title: 'Api Trackline',
     description:
       'API REST para "Trackline", sistema de rastreo de paquetes. Maneja autenticación con JWT, seguridad, validación de datos, acceso a base de datos Oracle, envío de correos y almacenamiento de imágenes en la nube.',
     stack: [
@@ -59,10 +59,10 @@ export const projects = [
     ],
     repo: 'https://github.com/MarioIvan44/ApiTrackline.git',
     demo: '',
-    image: '/images/projects/apitrackline.jpg',
+    image: '',
   },
   {
-    title: 'TracklineAppRoutes',
+    title: 'Trackline App Routes',
     description:
       'Aplicación Android para conductores de "Trackline", que consume la API ApiTrackline. Permite visualizar rutas y ubicación en tiempo real sobre Google Maps, con una interfaz construida en Jetpack Compose.',
     stack: [
@@ -75,6 +75,6 @@ export const projects = [
     ],
     repo: 'https://github.com/MarioIvan44/TracklineAppRoutes.git',
     demo: '',
-    image: '/images/projects/tracklineapproutes.jpg',
+    image: '/images/projects/tracklineapproutes.png',
   },
 ]

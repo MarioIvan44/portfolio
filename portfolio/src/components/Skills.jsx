@@ -1,6 +1,9 @@
 const skills = [
-  'React', 'Tailwind CSS', 'JavaScript', 'C#', '.NET', 'SQL Server',
-  'Git / GitHub', 'Figma', 'CSS', 'Bootstrap', 'Kotlin', 'MongoDB', 'MongoDB Atlas',
+  'React', 'JavaScript', 'Tailwind CSS', 'CSS', 'Bootstrap',
+  'Node.js', 'Express', 'Java', 'Spring Boot', 'C#', '.NET',
+  'MongoDB', 'SQL Server', 'Oracle', 'JWT',
+  'Kotlin', 'Android', 'Jetpack Compose', 'Retrofit', 'Google Maps SDK',
+  'Docker', 'Git / GitHub', 'Figma',
 ]
 
 export default function Skills() {

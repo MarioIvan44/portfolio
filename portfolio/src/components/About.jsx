@@ -4,9 +4,10 @@ export default function About() {
       <h2 className="font-display text-2xl font-bold">Sobre mí</h2>
       <p className="mt-4 max-w-2xl text-ink-soft">
         Actualmente estudio desarrollo de software, enfocado en crear soluciones
-        funcionales desde cero. Me fascina encontrar el equilibrio perfecto
-        entre construir interfaces intuitivas con React y Tailwind, y diseñar
-        backends sólidos con Node.js, SQL o C#. 
+        funcionales de extremo a extremo. Me fascina encontrar el equilibrio
+        perfecto entre construir interfaces intuitivas con React y Tailwind,
+        diseñar backends sólidos con Node.js, Java/Spring Boot o C#, y llevar
+        esas ideas al móvil con aplicaciones nativas en Kotlin para Android.
       </p>
       <br />
       <p className="mt-4 max-w-2xl text-ink-soft">
