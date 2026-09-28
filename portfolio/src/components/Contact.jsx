@@ -6,7 +6,7 @@ export default function Contact() {
         ¿Quieres platicar sobre un proyecto o una oportunidad? Escríbeme.
       </p>
       <a
-        href="mailto:tu-correo@ejemplo.com"
+        href="mailto:ing.mariodev@gmail.com"
         className="mt-6 inline-block rounded-md bg-accent px-5 py-2.5 text-sm font-medium text-bg transition-opacity hover:opacity-90"
       >
         ing.mariodev@gmail.com
